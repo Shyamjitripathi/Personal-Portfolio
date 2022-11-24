@@ -484,4 +484,7 @@ img{
     .home__container {
         height: 640px;
     }
+    .home__img{
+        display:none;
+    }
 }
