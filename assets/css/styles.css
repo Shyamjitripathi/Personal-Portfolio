@@ -381,7 +381,7 @@ img{
 /* For small devices */
 @media screen and (max-width: 320px) {
   .home__img {
-    width: 230px;
+    display: none;
   }
 }
 
@@ -399,6 +399,10 @@ img{
         width: 64px;
         top: 3rem;
     }
+    
+     .home__img {
+    display: none;
+  }
 
     .nav{
         height: calc(var(--header-height) + 1rem);
